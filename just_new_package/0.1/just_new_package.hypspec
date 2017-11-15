@@ -3,7 +3,7 @@
   "ver" : "0.1",
   "type": "hook",
   "environment" : {
-    "engine" : ["core"]
+    "engine" : ["Test_core"]
   },
    
   "description" : {
