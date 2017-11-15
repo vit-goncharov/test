@@ -1,0 +1,16 @@
+{
+  "name" : "just_package",
+  "ver" : "0.1",
+  "type": "hook",
+  "environment" : {
+    "engine" : ["core"]
+  },
+   
+  "description" : {
+    "summary" : "Just Package"
+  },
+         
+  "src" : [
+    "module1.lua"
+  ]
+}

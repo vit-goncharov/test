@@ -1,0 +1,31 @@
+[
+  {
+    /* Имя модуля, откуда брать символы  */
+    "name" : "ntoskrnl.exe",
+    /* Глобальные переменные и функции */
+    "globals" : [
+      "IopCreateFile"
+    ],
+    /* Типы */
+    "types" : [
+      {
+        /* Имя типа */
+        "name" : "_TOKEN",
+        /* Необходимые поля этого типа. Еслиfields отсутствует, то будут получены вс  поля */
+        "fields" : ["LogonSession", "Arguments"]
+      }
+    ]
+  },
+  {
+    "name" : "ndis.sys",
+    "globals" : [
+      "NdisAllocatePacket"
+    ],
+    "types" : [
+      {
+        "name" : "_NDIS_MINIPORT_BLOCK",
+        "fields" : ["Adapter", "Index"]
+      }
+    ]
+  }
+]
