@@ -1,9 +1,9 @@
 {
   "name" : "just_new_package",
   "ver" : "0.1",
-  "type": "hook",
+  "type": "event",
   "environment" : {
-    "engine" : ["test core"]
+    "engine" : ["test_core"]
   },
    
   "description" : {
