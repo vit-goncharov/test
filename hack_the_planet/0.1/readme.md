@@ -1,1 +1,0 @@
-Hello! I'm hack_the_planet module documentation

@@ -1,5 +1,5 @@
 {
-  "name" : "just_package",
+  "name" : "just_new_package",
   "ver" : "0.1",
   "type": "hook",
   "environment" : {
@@ -7,7 +7,7 @@
   },
    
   "description" : {
-    "summary" : "Just Package"
+    "summary" : "Just new Package"
   },
          
   "src" : [

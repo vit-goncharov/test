@@ -1,1 +1,0 @@
-print('hack_the_planet module1')
