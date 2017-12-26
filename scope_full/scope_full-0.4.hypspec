@@ -1,0 +1,22 @@
+{
+  "name" : "scope_full",
+  "ver" : "0.4",
+  "type": "scope",
+  "environment" : {
+    "os" : ["nt-64"],
+    "os_ver" : {
+      "nt" : [">= 9600"]
+    },
+    "engine" : ["core"],
+    "agent_ver" : [">= 0.4.0"]
+  },
+  "description" : {
+    "summary" : "scope",
+    "details" : "Package for generation events for file close operations",
+    "license" : "MIT"
+  },
+  "dependencies" : {},
+  "src" : [
+    "scope_full.lua"
+  ]
+}

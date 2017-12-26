@@ -1,0 +1,22 @@
+{
+  "name" : "hook_nt_close",
+  "ver" : "0.1",
+  "type": "hook",
+  "environment" : {
+    "os" : ["nt-64"],
+    "os_ver" : {
+      "nt" : [">= 9600"]
+    },
+    "engine" : ["core"],
+    "agent_ver" : [">= 0.4.0"]
+  },
+  "description" : {
+    "summary" : "hook",
+    "details" : "Package for generation events for file close operations",
+    "license" : "MIT"
+  },
+  "dependencies" : {},
+  "src" : [
+    "hook_nt_close.lua"
+  ]
+}
